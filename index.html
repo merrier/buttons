@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta content="按钮,好看的按钮,CSS按钮,按钮总结,按钮配色" name="Keywords">
     <meta content="总结了好看的按钮" name="description">
     <title>好看的按钮</title>
@@ -12,9 +13,43 @@
 <body>
 <h1 style="height: 0;overflow: hidden;">总结了看到的好看的按钮</h1>
 
+<div class="container cf">
+    <section style="display: none">
+        <div class="btn-container">
+            <a class="btn btn-">这是一个按钮</a>
+        </div>
+        <div class="from">来自：<a href="" target="_blank"></a></div>
+        <style class="code" contenteditable="true">
+            .btn-{
 
+            }
+        </style>
+    </section>
 
+    <section>
+        <div class="btn-container">
+            <a class="btn btn-1">这是一个按钮</a>
+        </div>
+        <div class="from">来自：<a href="http://www.baidu.com" target="_blank">http://www.baidu.com</a></div>
+        <style class="code" contenteditable="true">
+            .btn-1{
 
+            }
+        </style>
+    </section>
+</div>
+
+<div class="link-container">
+    <h2>一些其他好看的按钮（果然有志同道合之人啊~！）</h2>
+    <section style="display: none;">
+        <a class="link" href="" target="_blank"></a>
+        <p class="comment"></p>
+    </section>
+    <section>
+        <a class="link" href="" target="_blank">http://www.toutiao.com</a>
+        <p class="comment"></p>
+    </section>
+</div>
 
 </body>
 
@@ -23,6 +58,7 @@
 <script>
     window.githubForkRibbon.config({
         url: '//github.com/merrier/buttons',
+        fixed: true,
     })
 </script>
 </html>
