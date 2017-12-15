@@ -1,4 +1,93 @@
+.header{
+    line-height: 40px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.link{
+    color: #00a3cf;
+}
+
 .container{
-    width: calc(100% - 10vw);
     margin: 0 auto;
+}
+
+.code-wrap {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+    overflow: auto;
+}
+
+.btn-wrap {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+summary {
+    cursor: default;
+    left: 0;
+    color: #999;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 15px 0 15px 15px;
+    border-left: 2px solid #FF9800;
+    padding: 0 10px;
+    text-shadow: 0 0.2px hsl(0,0%,85%);
+    /*background: linear-gradient(#FF9800, #FF9800) no-repeat;*/
+    /*background-size: 100% 1px;*/
+    /*background-position: -400px bottom;*/
+    /*transition: .5s;*/
+}
+
+.btn-container{
+    padding: 15px;
+}
+
+.btn-container .btn{
+    margin: 5px;
+    cursor: pointer;
+}
+
+.code {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+    box-sizing: border-box;
+    font-size: 14px;
+    background: #ffe;
+    display: block;
+    padding: 1em;
+    font-family: Consolas, Monaco, monospace;
+    white-space: pre;
+    color: #333;
+    text-shadow: 0 1px 1px white;
+    overflow-y: scroll;
+}
+
+.link-container{
+    padding: 0 15px;
+}
+
+h2{
+    line-height: 35px;
+}
+
+.link-container section{
+    border-left: 1px solid #ccc;
+    padding-left: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.link-container .link{
+
+}
+
+.link-container comment{
+    color: rgba(0, 0, 0, 0.54);
 }

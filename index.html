@@ -13,31 +13,232 @@
 <body>
 <h1 style="height: 0;overflow: hidden;">总结了看到的好看的按钮</h1>
 
-<div class="container cf">
-    <section style="display: none">
-        <div class="btn-container">
-            <a class="btn btn-">这是一个按钮</a>
-        </div>
-        <div class="from">来自：<a href="" target="_blank"></a></div>
-        <style class="code" contenteditable="true">
-            .btn- {
-
-            }
-        </style>
-    </section>
-
-    <section>
-        <div class="btn-container">
-            <a class="btn btn-1">这是一个按钮</a>
-        </div>
-        <div class="from">来自：<a href="http://www.baidu.com" target="_blank">http://www.baidu.com</a></div>
-        <style class="code" contenteditable="true">
-            .btn-1 {
-
-            }
-        </style>
-    </section>
+<div class="header">该页面的模板来自于
+    <a class="link" href="https://github.com/chokcoco/magicCss" target="_blank">ChokCoco</a>，在此特别感谢ChokCoco老湿，右上角的"Fork
+    me on Github"是通过<a class="link" href="https://github.com/merrier/github-fork-ribbon-normal"
+                       target="_blank">我自己的插件</a>自动生成的。
 </div>
+
+<div class="container">
+
+    <section class="code-wrap cf">
+        <div class="btn-wrap btn-wrap-1">
+            <summary>来自：<a href="" target="_blank">http://www.pixijs.com/</a></summary>
+            <div class="btn-container cf btn-con-1">
+                <a class="btn btn-1">
+                    <span>Download</span>
+                    <svg class="next" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 23 14" xml:space="preserve"><line x1="22" y1="7" x2="16" y2="1"></line><line x1="22" y1="7" x2="16" y2="13"></line><line x1="0" y1="7" x2="23" y2="7"></line></svg>
+                    <div class="rect"><i class="r1"></i><i class="r2"></i><i class="r3"></i><i class="r4"></i></div>
+                </a>
+                <a class="btn btn-2">
+                    <span>Get Started</span>
+                    <svg class="next" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 23 14" xml:space="preserve"><line x1="22" y1="7" x2="16" y2="1"></line><line x1="22" y1="7" x2="16" y2="13"></line><line x1="0" y1="7" x2="23" y2="7"></line></svg>
+                    <div class="rect"><i class="r1"></i><i class="r2"></i><i class="r3"></i><i class="r4"></i></div>
+                </a>
+            </div>
+            <div class="btn-container cf btn-con-2">
+
+            </div>
+        </div>
+
+        <style class="code" contenteditable="true">
+            .btn-con-1{
+                background: rgb(31, 28, 63);
+            }
+            .btn-wrap-1 .btn {
+                position: relative;
+                display: inline-block;
+                width: 208px;
+                padding: 17px 20px 17px 35px;
+                padding-left: 0;
+                padding-right: 0;
+                font-weight: 500;
+                color: #fff;
+                font-size: 14px;
+                line-height: 16px;
+                text-transform: uppercase;
+                vertical-align: top;
+                text-align: center;
+                border: 0;
+                -webkit-transition: color .3s cubic-bezier(.215, .61, .355, 1);
+                -moz-transition: color .3s cubic-bezier(.215, .61, .355, 1);
+                -ms-transition: color .3s cubic-bezier(.215, .61, .355, 1);
+                -o-transition: color .3s cubic-bezier(.215, .61, .355, 1);
+                transition: color .3s cubic-bezier(.215, .61, .355, 1);
+                text-decoration: none;
+            }
+
+            .btn-wrap-1 .btn:before {
+                position: absolute;
+                z-index: 1;
+                left: 0;
+                top: 0;
+                width: 0;
+                height: 100%;
+                background: #c2185b;
+                content: "";
+                display: block;
+                -webkit-transition: width .3s cubic-bezier(.215, .61, .355, 1);
+                -moz-transition: width .3s cubic-bezier(.215, .61, .355, 1);
+                -ms-transition: width .3s cubic-bezier(.215, .61, .355, 1);
+                -o-transition: width .3s cubic-bezier(.215, .61, .355, 1);
+                transition: width .3s cubic-bezier(.215, .61, .355, 1);
+            }
+
+            .btn-wrap-1 .btn:hover {
+                -webkit-transform: translateX(2px) translateY(2px) !important;
+                -moz-transform: translateX(2px) translateY(2px) !important;
+                -ms-transform: translateX(2px) translateY(2px) !important;
+                -o-transform: translateX(2px) translateY(2px) !important;
+                transform: translateX(2px) translateY(2px) !important;
+                transition: color .25s cubic-bezier(.215, .61, .355, 1);
+                color: #fff;
+            }
+
+            .btn-wrap-1 .btn:hover:before {
+                width: 100%;
+                -webkit-transition: width .25s cubic-bezier(.215, .61, .355, 1);
+                -moz-transition: width .25s cubic-bezier(.215, .61, .355, 1);
+                -ms-transition: width .25s cubic-bezier(.215, .61, .355, 1);
+                -o-transition: width .25s cubic-bezier(.215, .61, .355, 1);
+                transition: width .25s cubic-bezier(.215, .61, .355, 1);
+            }
+
+            .btn-wrap-1 .btn span, .btn-con-1 .btn svg {
+                position: relative;
+                z-index: 2;
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            .btn-wrap-1 .btn svg {
+                width: 23px;
+                height: 14px;
+                margin-left: 35px;
+                margin-top: 0;
+                top: auto;
+                right: auto;
+                -webkit-transition: all .3s cubic-bezier(.215, .61, .355, 1);
+                -moz-transition: all .3s cubic-bezier(.215, .61, .355, 1);
+                -ms-transition: all .3s cubic-bezier(.215, .61, .355, 1);
+                -o-transition: all .3s cubic-bezier(.215, .61, .355, 1);
+                transition: all .3s cubic-bezier(.215, .61, .355, 1);
+            }
+
+            .btn-wrap-1 .btn svg line {
+                stroke: #fff;
+                stroke-width: 2px;
+            }
+
+            .btn-wrap-1 .btn:hover svg {
+                -webkit-transform: translateX(4px);
+                -moz-transform: translateX(4px);
+                -ms-transform: translateX(4px);
+                -o-transform: translateX(4px);
+                transform: translateX(4px);
+                -webkit-transition: all .25s cubic-bezier(.215, .61, .355, 1);
+                -moz-transition: all .25s cubic-bezier(.215, .61, .355, 1);
+                -ms-transition: all .25s cubic-bezier(.215, .61, .355, 1);
+                -o-transition: all .25s cubic-bezier(.215, .61, .355, 1);
+                transition: all .25s cubic-bezier(.215, .61, .355, 1);
+            }
+
+            .btn-wrap-1 .rect {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                right: -6px;
+                bottom: -6px;
+            }
+
+            .btn-wrap-1 .btn-1:hover .rect {
+                right: -4px;
+                bottom: -4px;
+            }
+
+            .btn-1 .r1, .btn-1 .r2, .btn-1 .r3, .btn-1 .r4 {
+                position: absolute;
+                background: #e91e63;
+            }
+
+            .btn-wrap-1 .btn-1:hover .r1, .btn-wrap-1 .btn-1:hover .r2, .btn-wrap-1 .btn-1:hover .r3, .btn-wrap-1 .btn-1:hover .r4 {
+                background: #c2185b;
+            }
+
+            .btn-wrap-1 .btn .rect .r1 {
+                width: 2px;
+                height: 6px;
+                bottom: 0;
+                left: 0;
+            }
+
+            .btn-wrap-1 .btn .rect .r2 {
+                width: 100%;
+                height: 2px;
+                bottom: 0;
+                left: 0;
+            }
+
+            .btn-wrap-1 .btn .rect .r3 {
+                width: 2px;
+                height: 100%;
+                right: 0;
+                top: 0;
+            }
+
+            .btn-wrap-1 .btn .rect .r4 {
+                width: 6px;
+                height: 2px;
+                right: 0;
+                top: 0;
+            }
+
+            .btn-1 {
+                background: #e91e63;
+            }
+
+            .btn-wrap-1 .btn-2 {
+                background: 0 0;
+                border: 2px solid #fff;
+            }
+
+            .btn-wrap-1 .btn-2:hover {
+                color: #E91E63;
+            }
+
+            .btn-wrap-1 .btn-2:hover:before {
+                background: #fff;
+            }
+
+            .btn-wrap-1 .btn-2 svg line {
+                stroke: #e91e63;
+                stroke-width: 2px;
+            }
+
+            .btn-2 .rect {
+                right: -8px;
+                bottom: -8px;
+            }
+
+            .btn-2:hover .rect {
+                right: -6px;
+                bottom: -6px;
+            }
+
+            .btn-2 .r1, .btn-2 .r2, .btn-2 .r3, .btn-2 .r4 {
+                position: absolute;
+                background: #fff;
+            }
+
+            .btn-wrap-1 .btn-2:hover .r1, .btn-wrap-1 .btn-2:hover .r2, .btn-wrap-1 .btn-2:hover .r3, .btn-wrap-1 .btn-2:hover .r4 {
+                background: #fff;
+            }
+        </style>
+    </section>
+
+
+</div>
+
 
 <div class="link-container">
     <h2>一些其他好看的按钮（果然有志同道合之人啊~！）</h2>
@@ -50,21 +251,23 @@
         <p class="comment">透明背景时的按钮hover特效，当然也可以用于点击时</p>
     </section>
     <section>
-        <a class="link" href="https://tympanus.net/Development/CreativeButtons/" target="_blank">Creative Button
-            Styles</a>
+        <a class="link" href="https://tympanus.net/Development/CreativeButtons/" target="_blank">Creative
+            ButtonStyles</a>
         <p class="comment">不同颜色背景下的按钮hover特效，其中还有icon的动画和3D按钮</p>
     </section>
     <section>
-        <a class="link" href="https://tympanus.net/Development/ProgressButtonStyles/" target="_blank">Progress Button Styles</a>
+        <a class="link" href="https://tympanus.net/Development/ProgressButtonStyles/" target="_blank">Progress Button
+            Styles</a>
         <p class="comment">提交按钮点击时的进度动画</p>
     </section>
     <section>
-        <a class="link" href="https://tympanus.net/Development/ButtonStylesInspiration/" target="_blank">Button Styles Inspiration</a>
+        <a class="link" href="https://tympanus.net/Development/ButtonStylesInspiration/" target="_blank">Button Styles
+            Inspiration</a>
         <p class="comment">很多不同类型的按钮，特效简单大方</p>
     </section>
     <section>
-        <a class="link" href="https://tympanus.net/Development/DistortedButtonEffects/" target="_blank">Distorted Button
-            Effects</a>
+        <a class="link" href="https://tympanus.net/Development/DistortedButtonEffects/" target="_blank">Distorted
+            ButtonEffects</a>
         <p class="comment">利用SVG filters制作的按钮点击特效，简直炫酷</p>
     </section>
 
@@ -75,9 +278,9 @@
 <script src="https://merrier.github.io/github-fork-ribbon-normal/github-fork-ribbon.min.js"></script>
 
 <script>
-    window.githubForkRibbon.config({
-        url: '//github.com/merrier/buttons',
-        fixed: true,
-    })
+  window.githubForkRibbon.config({
+    url: '//github.com/merrier/buttons',
+    fixed: true,
+  })
 </script>
 </html>
